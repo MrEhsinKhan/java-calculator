@@ -25,3 +25,6 @@ public class Calculator {
         System.out.println("Result: " + result);
     }
 }
+
+case '%': result = a % b; break;
+case '^': result = Math.pow(a, b); break;
